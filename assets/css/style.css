@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif; 
+    background-image: url('./img/sfondo.png');
+    box-sizing: border-box;
+    padding: 25px
+}
+header{
+    border: 0 solid;
+    background-color: #3C88A7;
+    height: 15em;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+header img{
+    height: 4em;
+    margin-block: 20px;
+}
+nav{
+    color: white;
+}
+nav h3{
+    padding-bottom: 1.5em;
+}
+nav p{
+    padding-bottom: 8px;
+}
+main{
+    border: 0 solid;
+    background-color: rgb(250, 249, 249);
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.title h4{
+    font-weight: 200;
+    margin-block: 20px;
+    padding: 0;
+    text-align: left;
+} 
+.first-part p strong{
+    color: #AB5A86;
+    font-weight: bold;
+}
+.first-part ul p{
+    padding-block: 15px;
+}
+.ellipse{
+     width: 10px;
+     margin-right: 5px;
+}
+.first-part ul li{
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.second-part p{
+    margin-block: 15px;
+}
+.second-part p strong{
+    color: #AB5A86;
+    font-weight: bold;
+}
+.second-part ol li{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+table caption strong{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 20em;
+    text-align: center;
+    height: 13em;
+    margin-block: 40px;
+}
+tr, th{
+    border: 1px solid;
+}
+.title-table{
+    background-color: #4769C1;
+    color: white;
+}
+.title-table th{
+    box-sizing: border-box;
+    padding-top: 10px
+}
+.video p{
+    padding-block: 20px;
+}
+.video p a{
+    color: #85BCD5;
+}
+.video iframe{
+    padding-left: 40px;
+    border-radius: 10px;
+}
+.sub{
+    border: 0 solid;
+    background-color: #E1E2E3;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.sub button{
+    background-color: #486AC2;
+    border: 0 solid;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.link{
+    border: 0 solid;
+    background-color: #E1E1E0;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 20px;
+}
+.data{
+    padding-left: 10em;
+}
+footer{
+    border: 0 solid;
+    background: linear-gradient(178deg, #2e7ed3, #0b1b3f);
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+footer p {
+    padding-bottom: 15px;
+}
+footer p strong{
+    color: blueviolet;
+}
